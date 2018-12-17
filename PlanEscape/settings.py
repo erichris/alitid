@@ -75,22 +75,22 @@ WSGI_APPLICATION = 'PlanEscape.wsgi.application'
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'Playeras',
-        'USER': 'postgres',
-        'PASSWORD': 'Nomorelove12',
-        'HOST': 'localhost',
-        'PORT': '5432',
-    }
-	# 'default': {
-        # 'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        # 'NAME': 'alitid',
-        # 'USER': 'alitid_1',
-        # 'PASSWORD': 'Nomorelove12',
-        # 'HOST': 'localhost',
-        # 'PORT': '5432',
-    # }
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'Playeras',
+#         'USER': 'postgres',
+#         'PASSWORD': 'Nomorelove12',
+#         'HOST': 'localhost',
+#         'PORT': '5432',
+#     }
+	 'default': {
+         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+         'NAME': 'alitid',
+         'USER': 'alitid_1',
+         'PASSWORD': 'Nomorelove12',
+         'HOST': 'localhost',
+         'PORT': '5432',
+     }
 }
 
 
