@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '(p708tf4cx(1t*(ggwq8373oanx7chk3^iz_9yk*#a3qhjt!sp'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = false
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['207.38.94.149']
 
 
 # Application definition
@@ -77,8 +77,8 @@ WSGI_APPLICATION = 'PlanEscape.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'Playeras',
-        'USER': 'postgres',
+        'NAME': 'alitid',
+        'USER': 'alitid_1',
         'PASSWORD': 'Nomorelove12',
         'HOST': 'localhost',
         'PORT': '5432',
